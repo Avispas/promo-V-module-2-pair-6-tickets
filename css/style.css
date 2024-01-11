@@ -4,14 +4,14 @@
   justify-content: center;
   height: 90vh;
 }
-.head {
+.head{
     background: #fc0;
     height: 100px;
     width: 100px;
     position: relative;
     border-radius: 50%;
-   
   }
+  
   .face {
     font-family: 'courier new', serif;
     font-size: 2.5em;
@@ -20,4 +20,7 @@
     position: absolute;
     top: 50%;
     transform: translate(-50%, -60%) rotate(90deg);
+  }
+  .face:hover{
+    content: 'AD';
   }
